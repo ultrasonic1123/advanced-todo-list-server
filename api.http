@@ -1,0 +1,13 @@
+POST http://localhost:3000/show/add-todo
+
+###
+GET http://localhost:3000/show/all
+
+###
+POST http://localhost:3000/show/update
+content-Type: application/json
+
+{
+    "_id":"64269d6394a859acebfac2dc",
+    "name": "to do updated"
+}
